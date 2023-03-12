@@ -6,7 +6,7 @@ const session = require('express-session');
 const SequelizeStore = require("connect-session-sequelize")(session.Store);
 
 // import the dotenv config values
-require('dotenv').config();
+require('/Users/maxfell/Desktop/bootcamp/homework/Model-View-Controller-MVC-Challenge-Tech-Blog/.env').config();
 
 // controllers
 const {PostController} = require('./controllers');
