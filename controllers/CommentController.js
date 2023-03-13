@@ -1,4 +1,3 @@
-// models
 const Comment = require('../models/comment')
 
 const CommentController = {};
